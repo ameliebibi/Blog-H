@@ -1,0 +1,98 @@
+h1,h2,h3{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 19pt;	
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+}
+
+img{
+	height: 250px;
+	border-radius: 50%;
+}
+
+nav ul li{
+	display: inline-block;
+	text-decoration: none;
+	padding:10px 40px;
+	background-color: #FFF3F3;
+	font-size: 18px;
+}
+
+h1{
+	text-align: center;
+}
+
+
+img{
+	display: block;
+	margin:auto;
+}
+
+
+section{
+	float: left;
+	width: 70%;
+	margin: auto;
+	padding: auto;
+	text-align: justify;
+}
+
+aside{
+	float: right;
+	width: 25%;
+	border: 1px solid black;
+	display: block;
+	text-align: center;
+}
+
+.left{
+	float: left;
+/*	width: 40%;
+	margin-bottom: 10px;
+	margin: auto;
+	padding:10px;*/
+}
+
+.right{
+	float: right;
+/*	width: 40%;
+	margin-bottom: 10px;
+	margin: auto;
+	padding:10px;*/
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+button{
+	background-color: #5084CB;
+	font-size: 24pt;
+}
+
+.fa-star{
+	color: yellow;
+	font-size: 29pt;
+}
+
+.fa-twitter{
+	color:#1AB2E8;
+}
+
+.fa-facebook-square{
+	color:#44619D;
+}
+
+.fa-search{
+	color: #FF9334;
+	font-size: 29pt;
+}
+
+article {
+	width: 40%;
+	padding:4%;
+}
