@@ -1,6 +1,14 @@
-h1,h2,h3{
-	font-family: 'Architects Daughter', cursive;
-	font-size: 19pt;	
+/* GENERAL */
+h1,h2{
+	font-family: 'Poiret One', cursive;
+	font-size: 19pt;
+	color: #7F0D00;	
+	font-style: bold;
+}
+
+h3{
+	color: #FF917A;
+	font-family: 'Poiret One', cursive;
 }
 
 p{
@@ -11,6 +19,76 @@ p{
 img{
 	height: 250px;
 	border-radius: 50%;
+	display: block;
+	margin:auto;
+}
+
+button{
+	background-color: #FF917A;
+	font-size: 18pt;
+	color: white;
+}
+
+a:link{
+	color: #FF917A;
+	text-decoration: none;
+}
+
+a:hover{
+	color:white;
+}
+
+a:visited{
+	color: gray;
+}
+
+nav ul li:hover{
+	border: 1px solid gray;
+	background-color: #FF917A;
+}
+
+
+/* HEADER */
+
+header{
+	background-color: #EFEFEF
+}
+
+.soustitre{
+ margin: auto;
+ text-align: center;
+}
+
+.parent {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	position: relative;
+}
+.hidden_message{
+	display:none;
+	background-color: #FFF3F3;
+	background-color: black;
+	opacity: 0.8;
+	position: absolute;
+	height: 100%;
+	border-radius: 50%;
+	margin:auto;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+}
+
+.hidden_message p {
+	margin-top: 46%;
+	text-align: center;
+}
+
+.parent:hover .hidden_message{
+	display: block;
 }
 
 nav ul li{
@@ -19,19 +97,14 @@ nav ul li{
 	padding:10px 40px;
 	background-color: #FFF3F3;
 	font-size: 18px;
+	display: center;
 }
 
 h1{
 	text-align: center;
 }
 
-
-img{
-	display: block;
-	margin:auto;
-}
-
-
+/* SECTION AVEC LES ARTICLES */
 section{
 	float: left;
 	width: 70%;
@@ -40,43 +113,58 @@ section{
 	text-align: justify;
 }
 
-aside{
-	float: right;
-	width: 25%;
-	border: 1px solid black;
-	display: block;
-	text-align: center;
+section article img{
+	height: 200px;
+}
+
+article {
+	width: 40%;
+	padding:4%;
 }
 
 .left{
 	float: left;
-/*	width: 40%;
-	margin-bottom: 10px;
-	margin: auto;
-	padding:10px;*/
 }
 
 .right{
 	float: right;
-/*	width: 40%;
-	margin-bottom: 10px;
-	margin: auto;
-	padding:10px;*/
 }
 
-footer{
-	clear: both;
+
+/* ASIDE */
+aside{
+	float: right;
+	width: 25%;
+	border: 1px solid #FF917A;
+	display: block;
 	text-align: center;
-}
-
-button{
-	background-color: #5084CB;
-	font-size: 24pt;
+	height: 900px;
+	padding: 10px;
+	background-color: #FFF3F3;
 }
 
 .fa-star{
-	color: yellow;
+	color: #FF917A;
 	font-size: 29pt;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.fa-search{
+	color: white;
+	font-size: 29pt;
+}
+
+#GET-name{
+	border:1px solid orange;
+	height: 20px;
+	width: 80%;
+}
+
+/* FOOTER */
+footer{
+	clear: both;
+	text-align: center;
 }
 
 .fa-twitter{
@@ -87,12 +175,5 @@ button{
 	color:#44619D;
 }
 
-.fa-search{
-	color: #FF9334;
-	font-size: 29pt;
-}
 
-article {
-	width: 40%;
-	padding:4%;
-}
+
