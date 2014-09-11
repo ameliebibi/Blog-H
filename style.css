@@ -47,6 +47,13 @@ nav ul li:hover{
 	background-color: #FF917A;
 }
 
+.wrapper {
+	width: 900px;
+	margin: auto;
+	padding: 5px 10px;
+	background-color: white;
+}
+
 
 /* HEADER */
 
@@ -69,7 +76,6 @@ header{
 }
 .hidden_message{
 	display:none;
-	background-color: #FFF3F3;
 	background-color: black;
 	opacity: 0.8;
 	position: absolute;
@@ -98,6 +104,7 @@ nav ul li{
 	background-color: #FFF3F3;
 	font-size: 18px;
 	display: center;
+	border: 1px solid transparent;
 }
 
 h1{
@@ -112,6 +119,7 @@ section{
 	padding: auto;
 	text-align: justify;
 }
+
 
 section article img{
 	height: 200px;
@@ -143,6 +151,8 @@ aside{
 	background-color: #FFF3F3;
 }
 
+
+
 .fa-star{
 	color: #FF917A;
 	font-size: 29pt;
@@ -159,6 +169,12 @@ aside{
 	border:1px solid orange;
 	height: 20px;
 	width: 80%;
+	color: #FF917A;
+	font-size: 12pt;
+}
+
+#GET-name:focus{
+	background-color: #EFEFEF;
 }
 
 /* FOOTER */
@@ -174,6 +190,8 @@ footer{
 .fa-facebook-square{
 	color:#44619D;
 }
+
+/*MEDIA QUERIES*/
 
 
 
